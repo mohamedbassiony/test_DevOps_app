@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'bassionypool'
+  name: bassionypool
 
 variables:
   solution: '**/*.sln'
